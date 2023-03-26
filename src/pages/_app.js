@@ -4,7 +4,9 @@ import '@/styles/globals.css'
 export default function App({ Component, pageProps }) {
   return (
     <Layout>
-      <Component {...pageProps} />
+      <main className='content'>
+        <Component {...pageProps} />
+      </main>
     </Layout>
   )
 }

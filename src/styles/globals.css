@@ -36,7 +36,7 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --foreground-rgb: 255, 255, 255;
+    --foreground-rgb: 0, 0, 0;
     --background-start-rgb: 255, 255, 255;
     --background-end-rgb: 255, 255, 255;
 
@@ -93,6 +93,10 @@ a {
   }
 }
 
+.content {
+  margin-left: 230px;
+  padding: 20px;
+}
 
 .sidebar {
   padding: 20px;
@@ -115,8 +119,8 @@ a {
 
 .sidebar a {
   color: #f9f9f9;
-  padding: 20px;
-  font-size: 22px;
+  padding: 15px;
+  font-size: 18px;
   text-decoration: none;
 }
 
